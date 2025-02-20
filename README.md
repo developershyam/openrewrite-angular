@@ -23,9 +23,9 @@ Want to upgrade to Angular 17/19 using OpenRewrite
 
 - Follow https://docs.openrewrite.org/recipes/codemods/migrate/angular/applyangularcli
 
-- mod config recipes jar install org.openrewrite.recipe:rewrite-codemods-ng:0.7.2
+- `mod config recipes jar install org.openrewrite.recipe:rewrite-codemods-ng:0.7.2`
 
-- mod run . --recipe ApplyAngularCLI --recipe-option "version=17"
+- `mod run . --recipe ApplyAngularCLI --recipe-option "version=17"` OR also tried `mod run . --recipe v19` 
 
 - Error
 
