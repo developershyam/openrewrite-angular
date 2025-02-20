@@ -1,0 +1,7 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.yourorg.ApplyAngularCLIExample
+displayName: Upgrade Angular versions example
+recipeList:
+  - org.openrewrite.codemods.migrate.angular.ApplyAngularCLI: 
+      version: 17
